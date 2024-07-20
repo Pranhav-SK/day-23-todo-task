@@ -1,0 +1,139 @@
+
+.title {
+  margin: 30px;
+  text-align: center;
+  color: green;
+  font-family: cursive;
+}
+
+.inline {
+  display: inline;
+}
+
+input {
+  width: 350px;
+  height: 35px;
+  border-radius: 5px;
+  border-color: green;
+  margin: 10px;
+}
+
+.addForm {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 20px;
+}
+
+.addFormButton {
+  width: 150px;
+  height: 35px;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+}
+
+.updateForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  gap: 20px;
+}
+
+.updateFormButton {
+  width: 150px;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+}
+
+.cardSection {
+  display: flex;
+  margin: 15px 15px 15px 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.subject {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin: 40px 40px 20px 40px;
+  padding: 10px;
+}
+
+.statusFilter{
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: cursive;
+}
+
+.title_2{
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 10px;
+  font-family: cursive;
+}
+
+.card {
+  width: 18rem;
+  background-color: lightgreen;
+  padding: 2px;
+}
+
+.cardButtons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 5px 5px 0;
+  gap: 10px;
+}
+
+.editButton {
+  background-color: green;
+  width: 70px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.deleteButton {
+  background-color: orangered;
+  width: 70px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+button {
+  border: none;
+}
+
+select {
+  background-color: rgb(216, 103, 139);
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+.selectStatus {
+  width: auto;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.completed {
+  background-color: green;
+}
+
+.not-completed {
+  background-color: red;
+}
